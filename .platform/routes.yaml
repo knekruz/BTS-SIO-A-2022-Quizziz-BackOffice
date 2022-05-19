@@ -1,9 +1,9 @@
 # Each route describes how an incoming URL is going to be processed by Platform.sh.
-"https://{default}/":
+"https://quiz/":
     type: upstream
     upstream: "home:http"
 
-"https://www.{default}/":
+"https://www.quiz/":
     type: redirect
-    to: "https://{default}/"
+    to: "https://quiz/"
  
